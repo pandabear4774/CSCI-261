@@ -17,19 +17,8 @@ public:
     int life;
     bool dead;
 
+    Particle(double, int, int, int, int, int);
 
-    Particle(double,int,int,int,int);
-
-    double getVelocity();
-    void setVelocity(double);
-
-    int getAngle();
-    void setAngle(int);
-
-    int getLife();
-    void setLife(int);
-
-    bool getDead();
     void setDead(bool);
 
     void update();

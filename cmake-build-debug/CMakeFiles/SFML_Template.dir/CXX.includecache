@@ -21,8 +21,6 @@ SFML/Graphics.hpp
 -
 iostream
 -
-thread
--
 vector
 -
 ctime
@@ -33,8 +31,6 @@ Explosion.h
 /Users/kurtain/Downloads/SFML_Template 3/Explosion.h
 fstream
 -
-Particle.h
-/Users/kurtain/Downloads/SFML_Template 3/Particle.h
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h

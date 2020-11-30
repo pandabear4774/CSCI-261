@@ -15,12 +15,12 @@ public:
     int xPos;
     int yPos;
 
-    Explosion(int,int,int,int);
-    void createExplosion(int,int,int);
+    Explosion(int, int, int, int, int, int);
+    void createExplosion(int, int, int);
 
     void updateExplosion();
 
-    int generateRandomNumber(int,int);
+    int generateRandomNumber(int, int);
 
 private:
 
