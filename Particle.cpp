@@ -54,3 +54,8 @@ void Particle::update(){
         }
     }
 }
+
+//returns the alive or dead state
+bool Particle::getDead(){
+    return dead;
+}

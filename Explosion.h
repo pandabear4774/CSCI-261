@@ -11,20 +11,17 @@ using namespace std;
 class Explosion {
 public:
     vector<Particle> particles;
-    int size;
-    int xPos;
-    int yPos;
 
     Explosion(int, int, int, int, int, int);
-    void createExplosion(int, int, int);
+
+    int getSize();
 
     void updateExplosion();
 
     int generateRandomNumber(int, int);
 
 private:
-
-
+    int size;
 };
 
 

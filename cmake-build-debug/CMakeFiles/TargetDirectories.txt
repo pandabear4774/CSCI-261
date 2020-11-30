@@ -1,3 +1,3 @@
-/Users/kurtain/Downloads/SFML_Template 3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/kurtain/Downloads/SFML_Template 3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/kurtain/Downloads/SFML_Template 3/cmake-build-debug/CMakeFiles/SFML_Template.dir
+/Users/kurtain/Downloads/CSCI-261-main/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kurtain/Downloads/CSCI-261-main/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kurtain/Downloads/CSCI-261-main/cmake-build-debug/CMakeFiles/SFML_Template.dir

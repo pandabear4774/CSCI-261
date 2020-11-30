@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/kurtain/Downloads/SFML_Template 3/Explosion.h
+/Users/kurtain/Downloads/CSCI-261-main/Explosion.h
 Particle.h
-/Users/kurtain/Downloads/SFML_Template 3/Particle.h
+/Users/kurtain/Downloads/CSCI-261-main/Particle.h
 vector
 -
 
-/Users/kurtain/Downloads/SFML_Template 3/Particle.h
+/Users/kurtain/Downloads/CSCI-261-main/Particle.h
 SFML/Graphics.hpp
 -
 
-/Users/kurtain/Downloads/SFML_Template 3/main.cpp
+/Users/kurtain/Downloads/CSCI-261-main/main.cpp
 SFML/Graphics.hpp
 -
 iostream
@@ -28,7 +28,7 @@ ctime
 string
 -
 Explosion.h
-/Users/kurtain/Downloads/SFML_Template 3/Explosion.h
+/Users/kurtain/Downloads/CSCI-261-main/Explosion.h
 fstream
 -
 

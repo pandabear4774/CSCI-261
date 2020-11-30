@@ -9,17 +9,16 @@ using namespace sf;
 
 class Particle {
 private:
-
-public:
-    RectangleShape particle;
     double velocity;
     int angle;
     int life;
     bool dead;
+public:
+    RectangleShape particle;
 
     Particle(double, int, int, int, int, int);
 
-    void setDead(bool);
+    bool getDead();
 
     void update();
 };

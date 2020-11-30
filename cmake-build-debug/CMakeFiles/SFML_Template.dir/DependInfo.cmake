@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/kurtain/Downloads/SFML_Template 3/Explosion.cpp" "/Users/kurtain/Downloads/SFML_Template 3/cmake-build-debug/CMakeFiles/SFML_Template.dir/Explosion.cpp.o"
-  "/Users/kurtain/Downloads/SFML_Template 3/Particle.cpp" "/Users/kurtain/Downloads/SFML_Template 3/cmake-build-debug/CMakeFiles/SFML_Template.dir/Particle.cpp.o"
-  "/Users/kurtain/Downloads/SFML_Template 3/main.cpp" "/Users/kurtain/Downloads/SFML_Template 3/cmake-build-debug/CMakeFiles/SFML_Template.dir/main.cpp.o"
+  "/Users/kurtain/Downloads/CSCI-261-main/Explosion.cpp" "/Users/kurtain/Downloads/CSCI-261-main/cmake-build-debug/CMakeFiles/SFML_Template.dir/Explosion.cpp.o"
+  "/Users/kurtain/Downloads/CSCI-261-main/Particle.cpp" "/Users/kurtain/Downloads/CSCI-261-main/cmake-build-debug/CMakeFiles/SFML_Template.dir/Particle.cpp.o"
+  "/Users/kurtain/Downloads/CSCI-261-main/main.cpp" "/Users/kurtain/Downloads/CSCI-261-main/cmake-build-debug/CMakeFiles/SFML_Template.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

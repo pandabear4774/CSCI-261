@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/kurtain/Downloads/SFML_Template 3"
+CMAKE_SOURCE_DIR = /Users/kurtain/Downloads/CSCI-261-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/kurtain/Downloads/SFML_Template 3/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/kurtain/Downloads/CSCI-261-main/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SFML_Template.dir/depend.make
@@ -79,42 +79,42 @@ include CMakeFiles/SFML_Template.dir/flags.make
 
 CMakeFiles/SFML_Template.dir/main.cpp.o: CMakeFiles/SFML_Template.dir/flags.make
 CMakeFiles/SFML_Template.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kurtain/Downloads/SFML_Template 3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SFML_Template.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFML_Template.dir/main.cpp.o -c "/Users/kurtain/Downloads/SFML_Template 3/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kurtain/Downloads/CSCI-261-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SFML_Template.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFML_Template.dir/main.cpp.o -c /Users/kurtain/Downloads/CSCI-261-main/main.cpp
 
 CMakeFiles/SFML_Template.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFML_Template.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kurtain/Downloads/SFML_Template 3/main.cpp" > CMakeFiles/SFML_Template.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kurtain/Downloads/CSCI-261-main/main.cpp > CMakeFiles/SFML_Template.dir/main.cpp.i
 
 CMakeFiles/SFML_Template.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFML_Template.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kurtain/Downloads/SFML_Template 3/main.cpp" -o CMakeFiles/SFML_Template.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kurtain/Downloads/CSCI-261-main/main.cpp -o CMakeFiles/SFML_Template.dir/main.cpp.s
 
 CMakeFiles/SFML_Template.dir/Explosion.cpp.o: CMakeFiles/SFML_Template.dir/flags.make
 CMakeFiles/SFML_Template.dir/Explosion.cpp.o: ../Explosion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kurtain/Downloads/SFML_Template 3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SFML_Template.dir/Explosion.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFML_Template.dir/Explosion.cpp.o -c "/Users/kurtain/Downloads/SFML_Template 3/Explosion.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kurtain/Downloads/CSCI-261-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SFML_Template.dir/Explosion.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFML_Template.dir/Explosion.cpp.o -c /Users/kurtain/Downloads/CSCI-261-main/Explosion.cpp
 
 CMakeFiles/SFML_Template.dir/Explosion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFML_Template.dir/Explosion.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kurtain/Downloads/SFML_Template 3/Explosion.cpp" > CMakeFiles/SFML_Template.dir/Explosion.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kurtain/Downloads/CSCI-261-main/Explosion.cpp > CMakeFiles/SFML_Template.dir/Explosion.cpp.i
 
 CMakeFiles/SFML_Template.dir/Explosion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFML_Template.dir/Explosion.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kurtain/Downloads/SFML_Template 3/Explosion.cpp" -o CMakeFiles/SFML_Template.dir/Explosion.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kurtain/Downloads/CSCI-261-main/Explosion.cpp -o CMakeFiles/SFML_Template.dir/Explosion.cpp.s
 
 CMakeFiles/SFML_Template.dir/Particle.cpp.o: CMakeFiles/SFML_Template.dir/flags.make
 CMakeFiles/SFML_Template.dir/Particle.cpp.o: ../Particle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kurtain/Downloads/SFML_Template 3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SFML_Template.dir/Particle.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFML_Template.dir/Particle.cpp.o -c "/Users/kurtain/Downloads/SFML_Template 3/Particle.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kurtain/Downloads/CSCI-261-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SFML_Template.dir/Particle.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFML_Template.dir/Particle.cpp.o -c /Users/kurtain/Downloads/CSCI-261-main/Particle.cpp
 
 CMakeFiles/SFML_Template.dir/Particle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFML_Template.dir/Particle.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kurtain/Downloads/SFML_Template 3/Particle.cpp" > CMakeFiles/SFML_Template.dir/Particle.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kurtain/Downloads/CSCI-261-main/Particle.cpp > CMakeFiles/SFML_Template.dir/Particle.cpp.i
 
 CMakeFiles/SFML_Template.dir/Particle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFML_Template.dir/Particle.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kurtain/Downloads/SFML_Template 3/Particle.cpp" -o CMakeFiles/SFML_Template.dir/Particle.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kurtain/Downloads/CSCI-261-main/Particle.cpp -o CMakeFiles/SFML_Template.dir/Particle.cpp.s
 
 # Object files for target SFML_Template
 SFML_Template_OBJECTS = \
@@ -130,7 +130,7 @@ SFML_Template: CMakeFiles/SFML_Template.dir/Explosion.cpp.o
 SFML_Template: CMakeFiles/SFML_Template.dir/Particle.cpp.o
 SFML_Template: CMakeFiles/SFML_Template.dir/build.make
 SFML_Template: CMakeFiles/SFML_Template.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/kurtain/Downloads/SFML_Template 3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SFML_Template"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kurtain/Downloads/CSCI-261-main/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SFML_Template"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SFML_Template.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +143,6 @@ CMakeFiles/SFML_Template.dir/clean:
 .PHONY : CMakeFiles/SFML_Template.dir/clean
 
 CMakeFiles/SFML_Template.dir/depend:
-	cd "/Users/kurtain/Downloads/SFML_Template 3/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/kurtain/Downloads/SFML_Template 3" "/Users/kurtain/Downloads/SFML_Template 3" "/Users/kurtain/Downloads/SFML_Template 3/cmake-build-debug" "/Users/kurtain/Downloads/SFML_Template 3/cmake-build-debug" "/Users/kurtain/Downloads/SFML_Template 3/cmake-build-debug/CMakeFiles/SFML_Template.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/kurtain/Downloads/CSCI-261-main/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kurtain/Downloads/CSCI-261-main /Users/kurtain/Downloads/CSCI-261-main /Users/kurtain/Downloads/CSCI-261-main/cmake-build-debug /Users/kurtain/Downloads/CSCI-261-main/cmake-build-debug /Users/kurtain/Downloads/CSCI-261-main/cmake-build-debug/CMakeFiles/SFML_Template.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SFML_Template.dir/depend
 

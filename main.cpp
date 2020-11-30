@@ -1,3 +1,15 @@
+/* CSCI 261: Final Project
+ *
+ * Author: Kurtis Quant and Moozoo Vang
+ *
+ * This is a spin on the classic game of pong
+ * This game is a single player game
+ * The user controls the left wall with W and S and the right wall with up and down arrows
+ * Walls spawn randomly when the ball hits the left and right wall
+ * Power ups spawn when a power up is hit or the left or right wall is hit a multiple of 25 times
+ * Explosion effects are generated when the ball comes in contact with a surface
+ *
+*/
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <vector>
@@ -146,7 +158,6 @@ int main(){
                 //checks to see if the start or play again button was clicked
                 if(position.x >= startButton.getPosition().x && position.x <= startButton.getPosition().x + startButton.getSize().x){
                     if(position.y >= startButton.getPosition().y && position.y <= startButton.getPosition().y + startButton.getSize().y){
-                        cout << gameState << endl;
                         if(gameState == "mainMenu" || gameState == "gameOver"){
                             setup();
                             gameState = "game";
@@ -285,7 +296,7 @@ void checkHit(){
         if(hitBarrierX(powerUps.at(i).coin.getPosition().x, powerUps.at(i).coin.getPosition().y, SCREEN_X / 15, SCREEN_Y / 15) ||
            hitBarrierY(powerUps.at(i).coin.getPosition().x, powerUps.at(i).coin.getPosition().y, SCREEN_X / 15, SCREEN_Y / 15)){
             //increase the score
-            updateScore(10);
+            updateScore(3);
 
             //destroy the power up
             powerUps.erase(powerUps.begin() + i);
@@ -377,8 +388,8 @@ void createPowerUp(){
 void draw(){
     //draws the explosions
     for(int i = 0; i < explosions.size(); i++){
-        for(int j = 0; j < explosions.at(i).size; j++){
-            if(!explosions.at(i).particles.at(j).dead)
+        for(int j = 0; j < explosions.at(i).getSize(); j++){
+            if(!explosions.at(i).particles.at(j).getDead())
                 window.draw(explosions.at(i).particles.at(j).particle);
         }
     }
@@ -416,7 +427,8 @@ void endGame(){
     gameState = "gameOver";
 
     //compares the current score to the high score
-    ifstream highScoreReader ("HighScore.txt");
+    ifstream highScoreReader;
+    highScoreReader.open("HighScore.txt");
     if(highScoreReader.fail()){
         cout << "Could not open file reader" << endl;
     }

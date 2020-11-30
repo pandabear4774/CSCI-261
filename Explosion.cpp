@@ -10,8 +10,6 @@ using namespace sf;
 //constructor
 Explosion::Explosion(int xPos, int yPos, int angleLow, int angleHigh, int size, int screenSize){
     //sets the variables in the class to the variables in the parameter
-    this -> xPos = xPos;
-    this -> yPos = yPos;
     this -> size = size;
 
     //creates multiple particles depending on the size parameter
@@ -44,6 +42,10 @@ int Explosion::generateRandomNumber(int low, int high){
     return random;
 }
 
+//returns the size of the explosion
+int Explosion::getSize(){
+    return particles.size();
+}
 //update the particles in the explosion
 void Explosion::updateExplosion(){
     //update every particle in the particles vector
